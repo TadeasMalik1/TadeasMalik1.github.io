@@ -4,29 +4,36 @@
     padding: 0;
     font-family: 'Quicksand', sans-serif;
 }
+
 body{
     background: #E8E8E8;
 
 }
+
 .bg-light{
     background-color: #f4f4f4;
     color: #333;
 }
+
 .bg-dark{
     background-color:#0E0B16;
     color: #fff;
 }
+
 .bg-primary{
-    background-color: #f4f4ff4;
+    background-color: #f4f4f4;
 }
+
 .list{
     margin: 0.5rem 0;
     list-style: none;
 }
+
 .list li{
     padding: 0.5rem 0;
     border-bottom: #444444 dotted 1px;
 }
+
 #logo{
     font-size: large;
     font-weight: bold;
@@ -35,21 +42,25 @@ body{
 .text-primary{
     color: green;
 }
+
 .l-heading{
     font-size: 4rem;
     margin-bottom: 1rem;
     line-height: 1.1;
 }
+
 .m-heading{
     font-size: 2rem;
     margin-bottom: 0.75rem;
     line-height: 1.1;
     text-align: center;
 }
+
 .lead{
     font-size: 1.3rem;
     margin-bottom: 2rem;
 }
+
 .btn{
     display: inline-block;
     color: #ffffff;
@@ -58,9 +69,11 @@ body{
     border: none;
     border-radius: 5px;
 }
+
 .btn:hover{
     background-color: greenyellow;
 }
+
 .source{
     font-size: small;
     position: absolute;
@@ -69,10 +82,12 @@ body{
     color: grey;
     margin: 10px 20px;
 }
+
 .source a{
     color: grey;
     text-decoration: none;
 }
+
 .container{
     max-width: 1100px;
     margin: auto;
@@ -81,6 +96,7 @@ body{
     flex-direction: column;
     overflow: hidden;
 }
+
 .text-center{
     text-align: center;
 }
@@ -105,7 +121,9 @@ p{
 a{
     text-decoration: none;
 }
+
 /*navbar*/
+
 #navbar{
     background: #0E0B16;
     color: #fff;
@@ -119,27 +137,36 @@ a{
     top: 0;
     z-index:2;
 }
+#navbar #hambac{
+    display: none;
+}
 #navbar ul{
     display: flex;
     list-style: none;
     align-items: center;
 }
+
 #navbar a{
     color: #fff;
 }
+
 #navbar ul li a{
     padding: 0.25rem 1rem;
     margin: 0.25rem 0.5rem;
 }
+
 #navbar ul li a:hover{
     background-color: lawngreen;
     border-radius: 5px;
 }
+
 /* Showcase */
+
 #showcase {
     background: #333 url("../img/raketa.jpg") center center/cover;
     height: 100vh;
 }
+
 #showcase .showcase-content{
     letter-spacing: 0.25rem;
     display: flex;
@@ -152,13 +179,14 @@ a{
     background-color: rgba(0,0,0,0.5);
     padding: 0 2rem;
 }
+
 #about .items{
     display: flex;
     justify-content: space-between;
     flex: 1;
 }
 #about .item{
-    width: 50%;
+
     text-align: center;
     padding: 1rem;
 }
@@ -209,6 +237,17 @@ a{
     width: 100%;
     padding: 0.5rem;
 }
+
+.active {
+    background-color: greenyellow;
+    border-radius: 5px;
+}
+
 #contact h3 {
     margin-top:1rem ;
+}
+
+#main-footer {
+    height: 400px;
+    display: flex;
 }
