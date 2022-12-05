@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Calibri, sans-serif;
+    
+}
+
+.clr{
+    clear:both;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #202124;
+}
+#navbar {
+    background-color: #202124;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 2vh 3vh;
+    list-style: none;
+}
+
+#navbar ul li a{
+    color: lightgrey;
+    margin: 0 1.5rem;
+    transition: 0.5s;
+}
+#navbar ul li a:hover{
+    color: white;
+}
+#navbar ul li a.active{
+    color: white;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20vh 0 0 0;
+}
+main .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main .wrapper .title {
+    margin-bottom: 5%;
+}
+main .wrapper .title h1, p, h2 {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+main .wrapper .title h1 {
+    font-size: 5em;
+}
+main .wrapper .title p {
+    font-size: 2em;
+}
+main .wrapper form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main .wrapper form .search-box {
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+main .wrapper form .search-box input {
+    width: 90%;
+    background-color: #202124;
+    border: 1px solid #5f6368;
+    height: 44px;
+    border-radius: 24px;
+    font-size: 1em;
+    color: white;
+    transition: border 0.3s;
+    text-indent: 5%;
+}
+main .wrapper form .search-box input:hover {
+    border: 1px solid white;
+}
+main .wrapper form .search-box input:focus::placeholder {
+    color: transparent;
+}
+main .wrapper form .search-box button {
+    width: 8%;
+    display: flex;
+    height: 44px;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 40px;
+}
+main .wrapper form .search-box button:hover {
+    background-color: #202124;
+}
+main .wrapper form .search-box i {
+    font-size: 1.5em;
+    color: white;
+}
+main .wrapper form .buttons {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+}
+main .wrapper form .buttons input {
+    background-color: #555555;
+    border: 1px solid #555555;
+    border-radius: 24px;
+    padding: 0 2em;
+    height: 44px;
+    cursor: pointer;
+    color: white;
+    margin: 0 5% 5% 5%;
+    font-size: 0.9em;
+}
+main .wrapper form .buttons input:hover {
+    border-color: white;
+}
+main .wrapper form .search-box p {
+    margin-right: 3%;
+    text-align: right;
+}
+main .wrapper form .search-box.text {
+    justify-content: flex-end;
+}
+main .wrapper form .search-box.text input {
+    max-width: 300px;
+}
+main .wrapper .subtitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+main .wrapper .subtitle p{
+    align-items: center;
+}
+
+
+#main-footer{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 10vh 0 0 0;
+    }
+    header .header-items {
+        flex-direction: column;
+        padding: 3vh 2vh;
+    }
+    main .wrapper .title h1 {
+        font-size: 3.5em;
+    }
+    main .wrapper .title p {
+        font-size: 1.6em;
+    }
+    main .wrapper .subtitle {
+        justify-content: center;
+    }
+    main .wrapper form .row input, main .wrapper form .row p {
+        font-size: 0.8em;
+    }
+    main .wrapper form .row {
+        flex-direction: column;
+    }
+    main .wrapper form .row p {
+        margin: 0 0 5% 0;
+    }
+    main .wrapper form .row button {
+        display: none;
+    }
+}
+@media screen and (max-width: 480px) {
+    main {
+        padding: 5vh 0 0 0;
+    }
+    header .header-items {
+        flex-direction: column;
+    }
+    header .links {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .wrapper .title h1 {
+        font-size: 2em;
+    }
+    main .wrapper .title p {
+        font-size: 1em;
+    }
+    main .wrapper form .buttons input, main .wrapper form .row p {
+        font-size: 0.8em;
+    }
+}
+
+main .wrapper form .row p {
+    margin-right: 3%;
+    text-align: right;
+}
+main .wrapper form .row.with-text {
+    justify-content: flex-end;
+}
+main .wrapper form .row.with-text input {
+    max-width: 300px;
+}
+main .wrapper .subtitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+main .wrapper form .row {
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+}
+main .wrapper form .row input {
+    width: 90%;
+    background-color: grey;
+    border: 1px solid #5f6368;
+    height: 44px;
+    border-radius: 24px;
+    font-size: 1em;
+    color: white;
+    transition: border 0.3s;
+    text-indent: 5%;
+}
