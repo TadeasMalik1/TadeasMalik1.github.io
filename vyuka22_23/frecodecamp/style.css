@@ -1,0 +1,61 @@
+
+    /* Add some general styling for the form */
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Style the title and description */
+h1#title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p#description {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Style the input fields and labels */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Style the select element and options */
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Style the radio buttons and checkboxes */
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style the submit button */
+button#submit {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

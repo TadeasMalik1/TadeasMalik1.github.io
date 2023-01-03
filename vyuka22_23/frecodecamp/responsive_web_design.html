@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>responsive web design</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<form id="survey-form">
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please complete the following survey to provide your feedback on our app.</p>
+
+  <label for="name" id="name-label">Name:</label>
+  <input type="text" id="name" placeholder="Enter your name" required>
+
+  <label for="email" id="email-label">Email:</label>
+  <input type="email" id="email" placeholder="Enter your email address" required>
+
+  <label for="number" id="number-label">Number:</label>
+  <input type="number" id="number" min="1" max="10" placeholder="Enter a number between 1 and 10">
+
+  <label for="dropdown" id="dropdown-label">Dropdown:</label>
+  <select id="dropdown">
+    <option value="Option 1">Option 1</option>
+    <option value="Option 2">Option 2</option>
+  </select>
+
+  <label id="radio-label">Radio buttons:</label>
+  <input type="radio" name="radio" value="Option 1">Option 1
+  <input type="radio" name="radio" value="Option 2">Option 2
+
+  <label id="checkbox-label">Checkboxes:</label>
+  <input type="checkbox" value="Option 1">Option 1
+  <input type="checkbox" value="Option 2">Option 2
+
+  <label for="comments" id="comments-label">Comments:</label>
+  <textarea id="comments" placeholder="Enter any additional comments or feedback here"></textarea>
+
+  <button type="submit" id="submit">Submit</button>
+</form>
+</body>
+</html>
