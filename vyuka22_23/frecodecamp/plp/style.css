@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+#header {
+    position: fixed;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 15px;
+
+}
+
+#header-img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+.nav-link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/* About Section Styles */
+#about {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.product {
+    width: 30%;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 30%;
+    text-align: center;
+}
+
+.item i {
+    margin-bottom: 10px;
+}
+
+/* Training Section Styles */
+#trenink {
+    padding: 20px;
+}
+
+.buy-trenink {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.tenis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+/* Contact Section Styles */
+#kontakt {
+    background-color: #bbb;
+    padding: 20px;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #aaa;
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width:768px) {
+    #header-img {
+        display: none;
+    }
+    #nav-bar {
+        flex-direction: column;
+    }
+    .products {
+        flex-wrap: wrap;
+    }
+    .item {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    #video {
+        width: 100%;
+        height: 200px;
+    }
+    .tenis1, .tenis2, .tenis3 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}

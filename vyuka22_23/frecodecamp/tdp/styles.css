@@ -11,7 +11,7 @@ html, body {
     min-width: 290px;
     top: 0;
     left: 0;
-    width: 300px;
+    width: 150px;
     height: 100%;
     border-right: 3px greenyellow solid;
     background-color: gray ;
@@ -26,16 +26,18 @@ html, body {
     font-weight: bold;
     padding: 1.5rem 20%;
     border-bottom: greenyellow solid 3px;
+    border-radius: 50px;
 }
 .nav-link {
     text-decoration: none;
     color: white;
     padding: 3rem 20%;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .nav-link:hover {
-    border-bottom: 3px solid greenyellow;
-    background-color: #1f2833;
+    display: flex;
+    background-color: limegreen;
+    border-radius: 50px;
 }
 
 #main-doc {
@@ -54,7 +56,8 @@ html, body {
     font-size: xx-large;
     padding-bottom: 1rem ;
     font-weight: bold;
-    border-bottom: 3px solid greenyellow;
+    border-bottom: 4px solid greenyellow;
+    border-radius: 50px;
 }
 
 @media only screen and (max-width: 815px) {
@@ -69,10 +72,14 @@ html, body {
         border: none;
         z-index: 1;
         border-bottom: 2px solid;
+        text-align: center;
+
+
     }
     #navbar header{
         font-size: medium;
         padding-bottom: 0.5rem;
+        text-align: center;
     }
     .nav-link{
         padding: 7px;
