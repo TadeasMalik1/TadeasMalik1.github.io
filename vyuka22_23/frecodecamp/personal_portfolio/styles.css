@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li a {
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    background-color: #444;
+}
+
+#welcome-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#projects {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.project-section-header {
+    margin-bottom: 50px;
+}
+
+.project-tile {
+    background-color: #fff;
+    border: 1px solid #333;
+    display: inline-block;
+    height: 200px;
+    margin: 0 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.to-do-list {
+    background-image: url(to-do-list.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.google-search {
+    background-image: url(google-search.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.inflace {
+    background-image: url(inflace.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.project-tile h3 {
+    color: #333;
+    margin-top: 75px;
+}
+
+.button {
+    margin-top: 50px;
+}
+
+.button a {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#kontakt {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+
+}
+
+.text {
+    text-align: center;
+    width: 50%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.icons a {
+    color: #333;
+    margin: 0 20px;
+}
+
+.icons i {
+    margin-top: 50px;
+}
+
+#footer {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#footer p {
+    margin: 0;
+}
